@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title>
+			Upgrade Game
+		</title>
+		
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="upgrade.js"></script>
+		<script type="text/javascript" src="attackOpponent.js"></script>
+		<link rel="stylesheet" type="text/css" href="myStyles.css">
+	</head>
+	
+	<body>
+		<div id="currentWeaponInfo">
+			Current Weapon: <span id="upgradeAmount"> </span> &nbsp;<span id="weaponName"> </span>
+			<br>
+			Weapon Damage: <span id="weaponDamage"> </span>
+		</div>
+		
+		<button type = "button" id="upgrade"> Upgrade Weapon </button>
+		<br /><br />
+		<div id="playerDetails">
+			Name: <span class="name"></span><br>
+			Level: <span class="level"></span><br>
+			HP: <span class="HP"></span><br>
+			Damage: <span class="damage"></span><br>
+			Armour: <span class="Armour"></span><br>
+		</div>
+		
+		<div id="opponentDetails">
+			Name: <span class="name"></span><br>
+			Level: <span class="level"></span><br>
+			HP: <span class="HP"></span><br>
+			Damage: <span class="damage"></span><br>
+			Armour: <span class="Armour"></span><br>
+		</div>
+		
+		<button type = "button" id="attackOpponent"> Attack Opponent </button>
+	</body>
+</html>
